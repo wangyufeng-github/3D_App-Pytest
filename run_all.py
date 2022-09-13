@@ -15,6 +15,8 @@ from common.send_mail import send_main
 from common.tool import Tool
 
 
+
+
 def acquire_report_address(reports_address):
     """
     返回最新测试报告完整路径
