@@ -1,1 +1,0 @@
-2022-09-19 15:36:09.121 control_element.py[43] window_exists -> {ClassName: 'Notepad', ControlType: WindowControl} TraverseControls: 2, SearchTime: 0.161s[15:36:08.960920 - 15:36:09.120775]

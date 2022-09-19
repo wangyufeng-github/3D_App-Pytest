@@ -48,7 +48,7 @@ def step_impl(context,status_value):
     status = OperateWindow().window_exists(patient_window)
     if status:
         logger.info("软件登录成功，进入病人管理界面")
-    assert_that(status).is_equal_to(status_value)
+    assert_that(str(status)).is_equal_to(status_value)
 
 
 
