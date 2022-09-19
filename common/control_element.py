@@ -31,9 +31,9 @@ class OperateWindow:
         """
         return window.GetValuePattern().Value()
 
-    def window_exists(self, window, max_search_seconds=5, search_interval_seconds=0.5):
+    def window_exists(self, window, max_search_seconds=5.0, search_interval_seconds=0.5):
         """
-        判断空间是否存在
+        判断控件是否存在
         :param window:窗口
         :param maxSearchSeconds:搜索时间
         :param searchIntervalSeconds: 搜索间隔
@@ -41,8 +41,9 @@ class OperateWindow:
         """
         try:
             result = window.Exists(window, max_search_seconds, search_interval_seconds)
-        except LookupError as err:
-            print("element is not found")
+        except TypeError as err:
+            print(f"Element is not found")
+            return False
         else:
             return result
 
@@ -282,13 +283,14 @@ class OperateWindow:
 
 
 if __name__ == '__main__':
-    subprocess.Popen('notepad.exe')
+    # subprocess.Popen('notepad.exe')
     window = auto.WindowControl(searchDepth=1,ClassName='Notepad')
     obj = OperateWindow()
-    time.sleep(2)
-    window.Hide()
-    time.sleep(1)
-    window.Show()
+    print(obj.window_exists(window))
+    # time.sleep(2)
+    # window.Hide()
+    # time.sleep(1)
+    # window.Show()
     # window.Minimize()
     # obj.hide_window(window)
     # print(window.GetChildren()[0].ClassName)
