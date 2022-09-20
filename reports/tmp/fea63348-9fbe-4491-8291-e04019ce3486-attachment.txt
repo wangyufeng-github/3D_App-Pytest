@@ -1,6 +1,0 @@
-My3DApp.exe                  60944 Console                    1     84,440 K
-2022-09-09 09:55:50.762 login_page.py[163] login_page_quit_button_click -> {Name: 'My3DApp', Depth: 1, ControlType: WindowControl} TraverseControls: 3, SearchTime: 0.254s[09:55:50.508574 - 09:55:50.762116]
-2022-09-09 09:55:50.769 login_page.py[163] login_page_quit_button_click -> {Name: '退出', ControlType: ButtonControl} TraverseControls: 10, SearchTime: 0.007s[09:55:50.762116 - 09:55:50.769329]
-My3DApp.exe                  60944 Console                    1    484,244 K
-My3DApp.exe                  64340 Console                    1         40 K
-�ɹ�: ����ֹ���� "My3DApp.exe"���� PID Ϊ 60944��

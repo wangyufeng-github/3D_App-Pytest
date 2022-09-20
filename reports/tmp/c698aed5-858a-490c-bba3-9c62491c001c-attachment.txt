@@ -1,2 +1,0 @@
-INFO     log:conftest.py:38 软件成功启动
-INFO     log:test_login.py:150 软件已退出

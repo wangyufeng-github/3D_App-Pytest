@@ -1,0 +1,172 @@
+{
+  "uid" : "556a2effdab7b21",
+  "name" : "管理员用户登录功能测试 -- @1.3 ",
+  "fullName" : "登录模块测试: 管理员用户登录功能测试",
+  "historyId" : "a1b60a9babb6e63fb3cdc3d7482e6124",
+  "time" : {
+    "start" : 1663657349788,
+    "stop" : 1663657379930,
+    "duration" : 30142
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given 点击管理员按钮",
+      "time" : {
+        "start" : 1663657361666,
+        "stop" : 1663657362916,
+        "duration" : 1250
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When 点击用户名输入框",
+      "time" : {
+        "start" : 1663657362916,
+        "stop" : 1663657363751,
+        "duration" : 835
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And 输入用户名Admin",
+      "time" : {
+        "start" : 1663657363752,
+        "stop" : 1663657364429,
+        "duration" : 677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And 点击密码输入框",
+      "time" : {
+        "start" : 1663657364430,
+        "stop" : 1663657365229,
+        "duration" : 799
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And 输入密码123",
+      "time" : {
+        "start" : 1663657365229,
+        "stop" : 1663657365809,
+        "duration" : 580
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And 点击登录按钮",
+      "time" : {
+        "start" : 1663657365810,
+        "stop" : 1663657366667,
+        "duration" : 857
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then 判断病例管理界面是否显示False",
+      "time" : {
+        "start" : 1663657366667,
+        "stop" : 1663657375798,
+        "duration" : 9131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块测试"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "123"
+  }, {
+    "name" : "status_value",
+    "value" : "False"
+  }, {
+    "name" : "username",
+    "value" : "Admin"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "556a2effdab7b21.json",
+  "parameterValues" : [ "123", "False", "Admin" ]
+}

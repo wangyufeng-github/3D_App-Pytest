@@ -1,0 +1,73 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "管理员用户登录功能测试 -- @1.1 ",
+    "uid" : "9e1dd7e50064783a",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663657293547,
+      "stop" : 1663657319671,
+      "duration" : 26124
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "123", "True", "admin" ]
+  }, {
+    "name" : "管理员用户登录功能测试 -- @1.2 ",
+    "uid" : "636a5d6a22627c97",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663657319674,
+      "stop" : 1663657349780,
+      "duration" : 30106
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "111", "False", "admin" ]
+  }, {
+    "name" : "管理员用户登录功能测试 -- @1.3 ",
+    "uid" : "556a2effdab7b21",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663657349788,
+      "stop" : 1663657379930,
+      "duration" : 30142
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "123", "False", "Admin" ]
+  }, {
+    "name" : "管理员用户登录功能测试 -- @1.4 ",
+    "uid" : "39207c5e1bc086c2",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663657379932,
+      "stop" : 1663657410088,
+      "duration" : 30156
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "111", "False", "Admin" ]
+  } ]
+}
